@@ -1,0 +1,20 @@
+#home-articles {
+    & .articles-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+
+        &>*:first-child,
+        &>*:last-child {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            grid-column: 1 / span 2;
+            align-items: center;
+        }
+
+        &>*:last-child {
+            grid-column: 2 / span 2;
+        }
+    }
+}

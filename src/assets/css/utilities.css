@@ -20,11 +20,11 @@
     }
 
     &.category-ent {
-        background-color: var(--sports-color);
+        background-color: var(--ent-color);
     }
 
     &.category-tech {
-        background-color: var(--sports-color);
+        background-color: var(--tech-color);
     }
 }
 
@@ -57,4 +57,55 @@
     &:hover {
         opacity: 0.9;
     }
+}
+
+.card {
+    background: white;
+    padding: 1rem;
+}
+
+.bg-dark {
+    background: var(--dark-color);
+}
+
+.bg-primary {
+    background: var(--primary-color);
+}
+
+.bg-secondary {
+    background: var(--secondary-color);
+}
+
+[class*="bg-"],
+[class*="bg-"] a,
+[class*="bg-"] h1,
+[class*="bg-"] h2,
+[class*="bg-"] h3,
+[class*="bg-"] h4,
+[class*="bg-"] h5 {
+    color: var(--light-color);
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
 }
