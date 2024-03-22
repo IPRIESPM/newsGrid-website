@@ -132,3 +132,8 @@
         grid-row: 1 / span 6;
     }
 }
+
+.l-heading {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}

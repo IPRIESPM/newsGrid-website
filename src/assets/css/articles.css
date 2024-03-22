@@ -18,3 +18,16 @@
         }
     }
 }
+
+#article .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    background-color: var(--light-color);
+
+    & .category {
+        margin-top: 0.4rem;
+    }
+}
