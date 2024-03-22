@@ -34,6 +34,7 @@
     border: none;
     background: var(--dark-color);
     color: var(--light-color);
+    transition: opacity 0.3s ease;
 
     &.btn-light {
         background: var(--light-color);
@@ -108,4 +109,15 @@
 
 .p-3 {
     padding: 3rem;
+}
+
+.list li {
+    width: 90%;
+    padding: .5rem 0;
+    border-bottom: 1px dotted #555;
+
+    & a:hover {
+        color: var(--primary-color) !important;
+        transition: color 0.3s ease;
+    }
 }
